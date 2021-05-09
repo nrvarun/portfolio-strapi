@@ -16,14 +16,18 @@
       "type": "string",
       "required": true
     },
-    "Description": {
-      "type": "richtext",
-      "required": true
-    },
     "Meta": {
       "type": "component",
       "repeatable": false,
       "component": "meta-information.meta"
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Heading": {
+      "type": "string",
+      "required": true
     }
   }
 }

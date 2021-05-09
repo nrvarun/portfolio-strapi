@@ -20,6 +20,14 @@
       "type": "component",
       "repeatable": false,
       "component": "meta-information.meta"
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "SubHeading": {
+      "type": "string",
+      "required": true
     }
   }
 }
