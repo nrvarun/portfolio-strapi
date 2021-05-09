@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_medias",
+  "info": {
+    "name": "Social Media"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-media.social"
+    }
+  }
+}

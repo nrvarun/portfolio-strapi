@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_meta_information_metas",
+  "info": {
+    "name": "Meta",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
