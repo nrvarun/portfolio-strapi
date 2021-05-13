@@ -38,6 +38,10 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "Description": {
+      "type": "text",
+      "required": true
     }
   }
 }
