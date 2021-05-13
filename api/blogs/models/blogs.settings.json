@@ -36,12 +36,16 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     },
     "Description": {
       "type": "text",
       "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
     }
   }
 }
