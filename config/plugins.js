@@ -1,4 +1,6 @@
 module.exports = ({ env }) => {
+  console.log(env("CLOUDINARY_FOLDER"));
+
   return {
     // ...
     upload: {
@@ -7,6 +9,12 @@ module.exports = ({ env }) => {
         cloud_name: env("CLOUDINARY_NAME"),
         api_key: env("CLOUDINARY_KEY"),
         api_secret: env("CLOUDINARY_SECRET"),
+      },
+      actionOptions: {
+        upload: {
+          folder: env("CLOUDINARY_FOLDER"),
+        },
+        delete: {},
       },
     },
     // ...
