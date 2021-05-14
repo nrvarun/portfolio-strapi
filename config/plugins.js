@@ -1,6 +1,4 @@
 module.exports = ({ env }) => {
-  console.log(env("CLOUDINARY_SECRET"));
-
   return {
     // ...
     upload: {
